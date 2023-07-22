@@ -18,7 +18,7 @@ Bem-vindo(a) ao repositório do projeto Music Preview, Com uma interface simples
 <br>
 
 <p align="center">
-  <img alt="preview website" src="https://github.com/DomCarlosAdriano/Inside_Idiomas/blob/master/.gitbub/preview.jpg?raw=true" width="100%">
+  <img alt="preview website" src="https://github.com/DomCarlosAdriano/Music_Preview/blob/master/.github/preview.png?raw=true" width="100%">
 </p>
 
 ## 🚀 Tecnologias

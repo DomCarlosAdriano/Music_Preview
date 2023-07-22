@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 você pode pesquisar por músicas ou artistas e, em questão de segundos, obter uma lista com os resultados da sua pesquisa. Ao encontrar a música desejada, você poderá escutar uma breve prévia dela clicando no botão "Escutar".
 
-- [Visite o projeto online](https://domcarlosadriano.github.io/Music-_Preview/)
+- [Visite o projeto online](https://domcarlosadriano.github.io/Music_Preview/)
 
 ## 🔖 Layout
 

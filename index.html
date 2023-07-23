@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <title>Lyrics Search</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -24,6 +31,62 @@
 
     <div id="prev-and-next-container" class="prev-and-next-container"></div>
 
+    <div class="container-player">
+      <div class="song-preview" style="display: none">
+        <div class="player-container">
+          <button class="prev-page">
+            <i class="fa-solid fa-arrow-left" onclick="paginaAnterior()"></i>
+          </button>
+
+          <img src="" alt="" />
+          <span class="song-name"></span>
+          <span class="artist-name"></span>
+
+          <div class="time">
+            <div class="time-atual">0:00</div>
+            <div class="time-end">0:00</div>
+          </div>
+
+          <div class="barra-de-progresso">
+            <div class="progresso"></div>
+            <audio src=""></audio>
+          </div>
+
+          <div class="butoes">
+            <div class="container-volume">
+              <button class="volume-button">
+                <i class="fa-solid fa-volume-high"></i>
+              </button>
+              <div class="altura">
+                <div class="altura-progresso"></div>
+              </div>
+            </div>
+
+            <div class="container-controles">
+              <button class="prev">
+                <i class="fa-solid fa-backward-fast"></i>
+              </button>
+              <button class="play">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <button class="restart">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+              </button>
+              <button class="pause">
+                <i class="fa-solid fa-pause"></i>
+              </button>
+              <button class="next">
+                <i class="fa-solid fa-forward-fast"></i>
+              </button>
+            </div>
+
+            <button class="like">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 li {
@@ -148,27 +149,119 @@ form button {
 
 /* ======= a parte do PLAYER =======*/
 
-li.song-preview {
+img {
+  border-radius: 1rem;
+  width: 55%;
+}
+
+.container-player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.player-container {
+  width: 400px;
+  height: 550px;
+  margin-inline: auto;
+
+  background: #8d56fd;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background: rgba(208, 204, 204, 0.652);
-  height: 35rem;
-  width: 30rem;
-  border-radius: 1rem;
+  align-items: center;
 }
 
-li.song-preview img {
-  border-radius: 1rem;
-  width: 50%;
+.prev-page {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  width: 88%;
+  text-align: start;
 }
 
-li.song-preview .player-songName {
-  margin: 1rem 0 3rem 0;
+.prev-page i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.song-name {
+  text-align: center;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 
-li.song-preview audio {
+.artist-name {
+  text-align: center;
+  max-width: 90%;
+}
+
+.time {
   width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0.3rem;
+}
+
+.barra-de-progresso {
+  width: 91%;
+  height: 10px;
+  background: aliceblue;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.progresso {
+  height: 100%;
+  width: 0%;
+  background: #10161b;
+  border-radius: 1rem;
+}
+
+.butoes {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.song-preview button {
+  font-size: 1.5rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container-volume {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.altura {
+  height: 8px;
+  width: 8rem;
+  background: aliceblue;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+.altura-progresso {
+  height: 8px;
+  width: 55%;
+  background: #10161b;
+  border-radius: 1rem;
+}
+
+.container-controles {
+  display: flex;
+  gap: 1rem;
+}
+
+.restart {
+  display: none;
+}
+
+.pause {
+  display: none;
 }
